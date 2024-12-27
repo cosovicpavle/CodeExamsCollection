@@ -1,0 +1,2 @@
+b,Marko,Markovic,10
+s,Nemanja,Nikolic,7,65000

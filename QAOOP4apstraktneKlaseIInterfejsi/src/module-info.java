@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module QAOOP4apstraktneKlaseIInterfejsi {
+}

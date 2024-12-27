@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Forme</title>
+</head>
+<body>
+<a href="table.html" >TABELE</a>
+<a href="forme.html" >FORME</a>
+<h1>FORME</h1>
+
+<form action="#" method="get">
+Ime:<br>
+<input type="text" name="ime" required="required" placeholder="Uneti ime"><br>
+Prezime:<br>
+<input type="text" name="prezime"><br>
+Godiste:<br>
+<input type="number" min="1996" max="2023" step="0.01" name="godiste"><br>
+Rodjendan:<br>
+<input type="date" name="rodjendan"><br>
+Pol<br>
+<input type="radio" value="muski" name="pol">muski<br>
+<input type="radio" value="zenski" name="pol">zenski<br>
+Odlusane tehnologije<br>
+<input type="checkbox" name="odslusane" value="Java osnove">Java osnove<br>
+<input type="checkbox" name="odslusane" value="Web osnove">Web osnove<br>
+<input type="checkbox" name="odslusane" value="Web napredno">Web napredno<br>
+Sifra:<br>
+<input type="hidden" name="sifra" value="1234"><br>
+
+Opis<br>
+<textarea rows="10" cols="50" name="opis"></textarea><br>
+Odabir kursa<br>
+<select name="kurs">
+<option value="Java">Java kurs</option>
+<option value="PHP">PHP kurs</option>
+</select>
+<input type="submit" name="action"value="snimi"><br>
+
+
+</form>
+</body>
+
+</html>
